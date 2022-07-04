@@ -8,7 +8,7 @@ def areaRectangle(a, b):
 def perimeterRectangle(a, b):
     return 2 * (a + b)
 
-
+#declare the number
 a = 10
 b = 12
 
