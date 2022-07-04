@@ -9,8 +9,8 @@ def perimeterRectangle(a, b):
     return 2 * (a + b)
 
 
-a = 5
-b = 6
+a = 10
+b = 12
 
 print("Area = ", areaRectangle(a, b))
 print("Perimeter = ", perimeterRectangle(a, b))
