@@ -1,16 +1,19 @@
-# adding just a comment
+age_0 = 21
+age_1 = 18
+
+if age_0 <= 22 and age_1 >= 21:
+    print("thats it")
+else:
+    print("false")
+
+if age_0 <= 22 or age_1 >= 21:
+    print("I want it")
+else:
+    print("issh!")
 
 
-def areaRectangle(a, b):
-    return a * b
+# exercise 5.1
 
-
-def perimeterRectangle(a, b):
-    return 2 * (a + b)
-
-#declare the number
-a = 10
-b = 12
-
-print("Area = ", areaRectangle(a, b))
-print("Perimeter = ", perimeterRectangle(a, b))
+car = "subaru"
+print(car == "subaru")
+print(car == "audi")
